@@ -10,7 +10,6 @@ function handleMouseLeave() {
 
 function addEventListenersToCards() {
     const cardElements = document.getElementsByClassName('s-card');
-    console.log(cardElements);
 
     for (let index = 0; index < cardElements.length; index ++) {
         const card = cardElements[index];
